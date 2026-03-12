@@ -23,6 +23,8 @@ O pipeline segue o fluxo:
 
 Dashboard da DAG no Airflow
 <img width="1375" height="814" alt="image" src="https://github.com/user-attachments/assets/ad550041-3fda-4c08-87de-0393c61a388b" />
+<img width="1615" height="1144" alt="image" src="https://github.com/user-attachments/assets/7bbde1e5-0a1a-46bf-b31b-c2475fe0097a" />
+
 
 
 
