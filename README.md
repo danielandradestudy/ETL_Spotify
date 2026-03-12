@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🎧 Spotify Airflow ETL Pipeline
 
 Este projeto realiza o processo de **ETL (Extract, Transform, Load)** de dados da API do Spotify, utilizando **Apache Airflow** para orquestração e **SQLite** como Data Warehouse local.
@@ -6,6 +5,7 @@ Este projeto realiza o processo de **ETL (Extract, Transform, Load)** de dados d
 O objetivo é capturar o histórico de músicas ouvidas recentemente e armazená-las de forma persistente e sem duplicatas, permitindo análises futuras de hábitos musicais.
 
 ## 🛠️ Tecnologias e Ferramentas
+* **Linux**: Onde foi executado o projeto.
 * **Python**: Lógica principal de extração e transformação.
 * **Apache Airflow (Astro CLI)**: Orquestração e agendamento das tarefas.
 * **Docker**: Conteinerização do ambiente de dados.
@@ -19,6 +19,10 @@ O pipeline segue o fluxo:
 2. **Transformação**: Limpeza dos dados, seleção de campos relevantes e criação de metadados de auditoria (`extracted_at`).
 3. **Carga**: Inserção no SQLite utilizando lógica de **Upsert** (Idempotência) baseada em uma Primary Key composta (`track_id` + `played_at`).
 
+## 📈 Monitoramento no Airflow
+
+Dashboard da DAG no Airflow
+<img width="1375" height="814" alt="image" src="https://github.com/user-attachments/assets/f0813ad6-74e1-462a-8d7a-20013745543c" />
 
 
 ## 🚀 Como Executar
@@ -29,7 +33,7 @@ O pipeline segue o fluxo:
 * Conta no [Spotify Developer Console](https://developer.spotify.com/dashboard/) para obter as credenciais.
 
 ### Instalação
-1. Clone o repositório:
+ Clone o repositório:
    ```bash
    git clone [https://github.com/danielandradestudy/projeto-spotify-airflow.git]
-=======
+
