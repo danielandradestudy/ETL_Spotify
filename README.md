@@ -22,7 +22,8 @@ O pipeline segue o fluxo:
 ## 📈 Monitoramento no Airflow
 
 Dashboard da DAG no Airflow
-<img width="1375" height="814" alt="image" src="https://github.com/user-attachments/assets/f0813ad6-74e1-462a-8d7a-20013745543c" />
+<img width="1375" height="814" alt="image" src="https://github.com/user-attachments/assets/ad550041-3fda-4c08-87de-0393c61a388b" />
+
 
 
 ## 🚀 Como Executar
@@ -36,4 +37,14 @@ Dashboard da DAG no Airflow
  Clone o repositório:
    ```bash
    git clone [https://github.com/danielandradestudy/projeto-spotify-airflow.git]
+   Configure as Variáveis de Ambiente:
+Crie um arquivo .env na raiz do projeto e adicione suas credenciais do Spotify:
+
+SPOTIFY_CLIENT_ID='seu_id_aqui'
+SPOTIFY_CLIENT_SECRET='seu_secret_aqui'
+Inicie o ambiente Airflow:
+Certifique-se de que o Docker está rodando e execute:
+
+Bash
+astro dev start
 
