@@ -1,0 +1,25 @@
+# --- Python & Ambientes ---
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# --- Astro CLI & Airflow ---
+.astro/
+airflow_settings.yaml
+# Mantenha o webserver_config.py e airflow_settings.yaml se quiser que as 
+# configurações de interface e conexões do Astro não subam.
+# Se você alterou o webserver_config para dar acesso, não suba ele.
+
+# --- Banco de Dados Local (SQLite) ---
+*.db
+airflow.db
+
+# --- Segurança e Credenciais (CRUCIAL) ---
+.env
+.spotify_cache*
+.DS_Store
+
+# --- Logs e PIDs ---
+*.log
+*.pid

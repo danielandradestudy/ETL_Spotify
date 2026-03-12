@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎧 Spotify Airflow ETL Pipeline
 
 Este projeto realiza o processo de **ETL (Extract, Transform, Load)** de dados da API do Spotify, utilizando **Apache Airflow** para orquestração e **SQLite** como Data Warehouse local.
@@ -31,3 +32,4 @@ O pipeline segue o fluxo:
 1. Clone o repositório:
    ```bash
    git clone [https://github.com/danielandradestudy/projeto-spotify-airflow.git]
+=======
